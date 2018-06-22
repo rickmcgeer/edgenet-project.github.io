@@ -1,5 +1,8 @@
 ---
 ---
+
+![EdgeNet logo](assets/images/logo.png)
+
 # Welcome to EdgeNet!
 
 EdgeNet is a distributed edge cloud, in the family of
