@@ -22,8 +22,7 @@ been approved, she will be able to use standard Kubernetes tools and
 technologies to deploy an application across the EdgeNet
 infrastructure.
 
-**To use EdgeNet, please proceed to the**
-**[EdgeNet Portal](https://sundewcluster.appspot.com/)!**
+### To use EdgeNet, please proceed to the [EdgeNet Portal](https://sundewcluster.appspot.com/).
 
 
 
