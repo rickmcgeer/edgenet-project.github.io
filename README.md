@@ -1,3 +1,18 @@
+# About this repo
+
+This is the repository for the edgenet.org website, which will primarily contain:
+1. A description of the project, including goals and plans
+2. About: project personnel
+3. Instructional materials (very brief: most user guides will be pointers to Kubernetes)
+4. Links to project presentations and publications
+5. Sister and predecessor projects
+6. Edge-net consortium and documents
+
+
+Below please find a few hints for Markdown editing on GitHub Pages.
+
+------------
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/EdgeNet-project/edgenet-project.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
