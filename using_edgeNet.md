@@ -41,17 +41,27 @@ The unit of tenancy in K8s is the *namespace*; this is a collection of Pods that
 
 # <a name="edgeNetPortal">Navigating the EdgeNet Portal</a>
 
-The EdgeNet portal holds and manages user namespaces and configuration files; however, management of the EdgeNet cluster is done by the EdgeNet head node.  A user will interact with the EdgeNet head node to get access to and configuration information for the EdgeNet head node.  Once this is obtained, the user can use the credentials supplied by the portal with the EdgeNet head node.  The user interacts with the EdgeNet Portal only to get his credentials as a configuration file; once this is done, he interacts directly with the EdgeNet Head Node, which is a Kubernetes node
-When you access EdgeNet, you’ll see a login screen.
+The EdgeNet portal holds and manages user namespaces and configuration files; however, management of the EdgeNet cluster is done by the EdgeNet head node.  A user will interact with the EdgeNet head node to get access to and configuration information for the EdgeNet head node.  Once this is obtained, the user can use the credentials supplied by the portal with the EdgeNet head node.  The user interacts with the EdgeNet Portal only to get his credentials as a configuration file; once this is done, he interacts directly with the EdgeNet Head Node, which is a Kubernetes head node.
+When you access EdgeNet, you'll see a brief welcome screen and a link to use edgeNet.  
+![Welcome Screen](assets/images/WelcomeScreen.png)
 
-Sign in with your Google account.  Soon, we will offer other login options.  Once you’ve signed in, you’ll see a welcome screen.
+Click on it If you haven't logged in you’ll be asked to login.
+![Login Screen](assets/images/login.png)
+
+Sign in with your Google account.  Soon, we will offer other login options.  Once you’ve signed in, you’ll be requested to agree to the Acceptable Use Policy
+![AUP](assets/images/AUP.png)
+![AUP Agreement](assets/images/AUP_agree.png)
 
 Click “Agree”.  At that point, you will be pending Administrator Approval
+![Pending Approval](assets/images/pending.png)
 
-Once your account is approved, you will be able to download your configuration file
+Once your account is approved, you will be able to download your configuration file.
+
+![Dashboard](assets/images/dashboard.png)
+
 
 Note the name of your namespace!  This is extremely important.  Generally, it will be your email address with @ and . turned into -; so rick.mcgeer@us-ignite.org becomes rick-mcgeer-us-ignite-org.  Now download the configuration file and store it somewhere reasonable on your computer, and click on “EdgeNet Head Node”.  
-From here on out, you are working with the Kubernetes Head Node!
+**_From here on out, you are working with the Kubernetes Head Node!_**
 Once you’ve clicked, you will see this screen:
 
 
