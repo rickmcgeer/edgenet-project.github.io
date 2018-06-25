@@ -62,6 +62,7 @@ Once your account is approved, you will be able to download your configuration f
 
 Note the name of your namespace!  This is extremely important.  Generally, it will be your email address with @ and . turned into -; so rick.mcgeer@us-ignite.org becomes rick-mcgeer-us-ignite-org.  Now download the configuration file and store it somewhere reasonable on your computer, and click on “EdgeNet Head Node”.  
 **_From here on out, you are working with the Kubernetes Head Node!_**
+
 Once you’ve clicked, you will see this screen:
 
 
