@@ -4,7 +4,7 @@
 # Using EdgeNet
 ## The Short Version
 
-EdgeNet is just a distributed [Kubernetes](https://kubernetes.io/)
+EdgeNet is a distributed [Kubernetes](https://kubernetes.io/)
 cluster.  If you’re familiar with Kubernetes, you can
 immediately jump to the sections [K8s Concepts](#K8sConcepts),
 [Getting my Kubernetes Configuration](#K8sConfig), and
